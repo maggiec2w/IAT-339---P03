@@ -1,0 +1,77 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    flex-basis: inherit;
+}
+
+@media screen and (max-width: 70rem){
+    .homepage h1, h1{
+        font-size: 2.5rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1.1rem;
+    }
+    h4{
+        font-size: 0.9rem;
+    }
+
+    p, ol, ul{
+        font-size:0.9rem;
+    }
+
+    .main-nav{
+        transform:translateX(0%);
+        animation: none;
+    }
+
+    .main-nav a{
+        padding-top: 1rem;
+    
+        padding-left: 0rem;
+        padding-right: 2rem; 
+    }
+
+}
+
+@media screen and (max-width: 40rem){
+    .homepage h1, h1{
+        font-size: 1.5rem;
+    }
+
+    h2{
+        font-size: 1.2rem;
+    }
+
+    h3{
+        font-size: 1.1rem;
+    }
+
+    h4{
+        font-size: 0.9rem;
+    }
+
+    p, ol, ul{
+        font-size:0.9rem;
+    }
+
+    .main-nav{
+        transform:translateX(0%);
+        animation: none;
+    }
+
+    .main-nav a{
+        padding-top: 1rem;
+    
+        padding-left: 0rem;
+        padding-right: 0.5rem; 
+    }
+
+    #editor:hover ~ #editor-img, #videographer:hover ~ #hidden-vid, #modeler:hover ~ #modeler-img, #foodie:hover ~ #foodie-vid{
+        display:none;
+    }
+    
+
+}
