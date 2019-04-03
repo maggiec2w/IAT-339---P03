@@ -36,7 +36,7 @@
 
 }
 
-@media screen and (max-width: 40rem){
+@media screen and (max-width: 30rem){
     .homepage h1, h1{
         font-size: 1.5rem;
     }
@@ -57,17 +57,11 @@
         font-size:0.9rem;
     }
 
-    .main-nav{
-        transform:translateX(0%);
-        animation: none;
+    .main-nav a{
+        font-size: 8vw;
+        padding-right: 1.5rem;
     }
 
-    .main-nav a{
-        padding-top: 1rem;
-    
-        padding-left: 0rem;
-        padding-right: 0.5rem; 
-    }
 
     #editor:hover ~ #editor-img, #videographer:hover ~ #hidden-vid, #modeler:hover ~ #modeler-img, #foodie:hover ~ #foodie-vid{
         display:none;
